@@ -71,12 +71,12 @@ export default function Home() {
               <span>What's App</span>
             </a>
           </Card>
-          <Card>
+          {/* <Card>
             <div className="py-[18px] px-[64px] text-[14px] text-[#1C1C1C] flex gap-2 justify-center text-center items-center mt-3">
               <img src="/assets/images/gmail.svg" alt="G-Mail" />
               <span>G-Mail</span>
             </div>
-          </Card>
+          </Card> */}
         </Container>
       </div>
     </div>
