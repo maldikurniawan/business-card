@@ -6,16 +6,16 @@ export default function Home() {
   return (
     <div className="relative min-h-screen">
       <div
-        className="w-[299px] h-[299px] bg-[#20B9D4] absolute rounded-full blur-[250px] -z-10 top-0 left-0"
+        className="w-[299px] h-[299px] bg-[#20B9D4] absolute rounded-full blur-[200px] -z-10 top-0 left-0"
       ></div>
       <div
-        className="w-[299px] h-[299px] bg-[#20B9D4] absolute rounded-full blur-[250px] -z-10 top-0 right-0"
+        className="w-[299px] h-[299px] bg-[#20B9D4] absolute rounded-full blur-[200px] -z-10 top-0 right-0"
       ></div>
       <div
-        className="w-[450px] h-[450px] bg-[#AC2477] absolute rounded-full blur-[250px] -z-10 bottom-0 left-0"
+        className="w-[450px] h-[450px] bg-[#AC2477] absolute rounded-full blur-[200px] -z-10 bottom-0 left-0"
       ></div>
       <div
-        className="w-[450px] h-[450px] bg-[#AC2477] absolute rounded-full blur-[250px] -z-10 bottom-0 right-0"
+        className="w-[450px] h-[450px] bg-[#AC2477] absolute rounded-full blur-[200px] -z-10 bottom-0 right-0"
       ></div>
       <div
         className="w-[451px] h-[451px] bg-[#6BC364] absolute rounded-full blur-[250px] -z-10 top-0 right-1/2"
@@ -28,8 +28,23 @@ export default function Home() {
           <Card>
             <div className="p-[10px]">
               <div className="mx-auto flex justify-center bg-[#D7D7D7] rounded-[24px]">
-                <img src="/assets/images/pak-supri.png" alt="Pak Supri" className="mt-8"/>
+                <img src="/assets/images/pak-supri.png" alt="Pak Supri" className="mt-8" />
               </div>
+              <div className="flex items-center gap-1">
+                <h1 className="uppercase font-bold text-[24px] mt-1">Supriyanto</h1>
+                <span><img src="/assets/images/verified.svg" alt="Verified" className="mt-2" /></span>
+              </div>
+              <p className="text-[12px] text-[#808080]">Jln. Alam Flora no 41, Way Halim Permai, Kecamatan Way Halim, Kota Bandar Lampung, Lampung 351335</p>
+            </div>
+          </Card>
+          <Card>
+            <div className="py-[18px] px-[64px] text-center items-center mt-3">
+              What's App
+            </div>
+          </Card>
+          <Card>
+            <div className="py-[18px] px-[64px] text-center items-center mt-3">
+              G-Mail
             </div>
           </Card>
         </Container>
