@@ -2,3 +2,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (min-width: 500px) {
+    .container-style {
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        background: linear-gradient(163deg, rgba(255, 255, 255, 0.50) -1.51%, rgba(255, 255, 255, 0.80) 143.73%);
+    }
+}
